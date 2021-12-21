@@ -21,7 +21,7 @@ The designs were created to the following widths:
 - Very Dark Violet: hsl(270, 9%, 17%)
 <!-- body text? -->
 - Dark Grayish Violet: hsl(273, 4%, 51%)
-<!-- ????????? -->
+<!-- Footer background -->
 - Very Light Gray: hsl(0, 0%, 98%)
 
 ## Typography

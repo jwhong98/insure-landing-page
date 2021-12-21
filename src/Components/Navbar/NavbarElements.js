@@ -15,8 +15,6 @@ export const NavbarContainer = styled.div`
   padding: 0 24px;
 `;
 
-export const NavLogo = styled.img``;
-
 export const MobileIcon = styled.div`
   cursor: pointer;
   border: 2px solid black;

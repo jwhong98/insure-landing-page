@@ -1,8 +1,8 @@
 import React from "react";
+import Logo from "../Logo";
 import {
   FooterContainer,
   FooterHead,
-  FooterLogo,
   SocialMenu,
   SocialItem,
   SocialIcon,
@@ -12,24 +12,28 @@ import {
   SectionMenu,
   MenuItem,
 } from "./FooterElements";
+import facebook from "../../images/icon-facebook.svg";
+import twitter from "../../images/icon-twitter.svg";
+import pinterest from "../../images/icon-pinterest.svg";
+import instagram from "../../images/icon-instagram.svg";
 
 const Footer = () => {
   return (
     <FooterContainer>
       <FooterHead>
-        <FooterLogo></FooterLogo>
+        <Logo />
         <SocialMenu>
           <SocialItem>
-            <SocialIcon />
+            <SocialIcon src={facebook} />
           </SocialItem>
           <SocialItem>
-            <SocialIcon />
+            <SocialIcon src={twitter} />
           </SocialItem>
           <SocialItem>
-            <SocialIcon />
+            <SocialIcon src={pinterest} />
           </SocialItem>
           <SocialItem>
-            <SocialIcon />
+            <SocialIcon src={instagram} />
           </SocialItem>
         </SocialMenu>
       </FooterHead>

@@ -1,11 +1,10 @@
 import React from "react";
 import { VscThreeBars } from "react-icons/vsc";
 
-import img from "../../images/logo.svg";
+import Logo from "../Logo";
 import {
   Nav,
   NavbarContainer,
-  NavLogo,
   MobileIcon,
   NavMenu,
   NavItem,
@@ -16,7 +15,7 @@ const Navbar = ({ toggle }) => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo src={img} />
+        <Logo />
         <MobileIcon onClick={toggle}>
           <VscThreeBars />
         </MobileIcon>
