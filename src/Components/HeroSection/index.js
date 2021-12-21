@@ -1,12 +1,12 @@
 import React from "react";
 import img from "../../images/image-intro-mobile.jpg";
+import Button from "../Button";
 import {
   HeroSectionContainer,
   HeroImg,
   HeroContent,
   HeroHead,
   HeroDescription,
-  HeroButton,
 } from "./HeroSectionElement";
 
 const HeroSection = () => {
@@ -20,7 +20,7 @@ const HeroSection = () => {
           expertise and technology to help you find the plant that's right for
           you. Ensure you and your loved ones are protected.
         </HeroDescription>
-        <HeroButton>view plans</HeroButton>
+        <Button label="view plans" />
       </HeroContent>
     </HeroSectionContainer>
   );
